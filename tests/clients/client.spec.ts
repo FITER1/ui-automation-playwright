@@ -9,7 +9,7 @@ test.describe('client management interactions - @client', () => {
         await clientPage.navigateToClientPage();
     });
 
-    test('create new client', async ({ clientPage }) => {
+    test.only('create new client', async ({ clientPage }) => {
         await clientPage.createClient();
     });
 
