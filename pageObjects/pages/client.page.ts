@@ -15,7 +15,7 @@ export default class ClientPage {
     }
 
     public async createClient() {
-        await this.clientActions.createNewClient();
+        await this.clientActions.createClient();
     }
     
     public async editClient() {
